@@ -11,7 +11,7 @@ export default {
   <div class="w-full text-black">
     <div class="bottom-0 inset-x-0 p-4 w-11/12 mx-auto sm:flex sm:items-center sm:justify-between">
       <span class="text-sm sm:text-center"
-        >© {{ year }} <a href="/about" class="text-center hover:underline">Fajar Raihan</a>.
+        >© {{ year }} <router-link to="/about" class="text-center hover:underline">Fajar Raihan</router-link>.
       </span>
       <div class="flex mt-2.5 md:mt-4 space-x-6 justify-center">
         <a href="https://web.facebook.com/fjr.rehan">
