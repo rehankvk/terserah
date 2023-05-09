@@ -14,7 +14,7 @@ export default {
         >© {{ year }} <a href="/about" class="text-center hover:underline">Fajar Raihan</a>.
       </span>
       <div class="flex mt-2.5 md:mt-4 space-x-6 justify-center">
-        <router-link to="https://web.facebook.com/fjr.rehan">
+        <a href="https://web.facebook.com/fjr.rehan">
           <svg
             class="w-5 h-5"
             fill="currentColor"
@@ -28,7 +28,8 @@ export default {
             />
           </svg>
         </a>
-        <router-link to="https://www.instagram.com/nhrrjf/">
+        
+        <a href="https://www.instagram.com/nhrrjf/">
           <svg
             class="w-5 h-5"
             fill="currentColor"
@@ -41,9 +42,9 @@ export default {
               clip-rule="evenodd"
             />
           </svg>
-        </router-link>
+        </a>
         
-        <router-link to="https://github.com/rehankvk">
+        <a href="https://github.com/rehankvk">
           <svg
             class="w-5 h-5"
             fill="currentColor"
@@ -56,7 +57,7 @@ export default {
               clip-rule="evenodd"
             />
           </svg>
-        </router-link>
+        </a>
       </div>
     </div>
   </div>
